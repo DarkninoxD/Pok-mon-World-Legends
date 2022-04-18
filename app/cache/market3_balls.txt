@@ -1,0 +1,1 @@
+a:1:{i:0;a:6:{s:2:"id";s:3:"110";s:4:"naam";s:7:"GS ball";s:6:"silver";s:1:"0";s:4:"gold";s:3:"100";s:7:"premium";s:1:"0";s:15:"omschrijving_pt";s:69:"100% de chance de capturar um pokemon. Pokebola Especial de Ano Novo.";}}

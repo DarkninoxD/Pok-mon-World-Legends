@@ -1,0 +1,1 @@
+a:6:{i:0;a:2:{s:5:"total";s:2:"16";s:7:"wild_id";s:3:"289";}i:1;a:2:{s:5:"total";s:1:"7";s:7:"wild_id";s:3:"805";}i:2;a:2:{s:5:"total";s:1:"6";s:7:"wild_id";s:3:"644";}i:3;a:2:{s:5:"total";s:1:"6";s:7:"wild_id";s:3:"150";}i:4;a:2:{s:5:"total";s:1:"4";s:7:"wild_id";s:1:"4";}i:5;a:2:{s:5:"total";s:1:"4";s:7:"wild_id";s:3:"568";}}

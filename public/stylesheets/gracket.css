@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25/04/2014, 22:09:16
+    Author     : Bruno Agenor
+*/
+
+.g_gracket, .g_gracket2 { width: 700px; background-color: transparent; padding: 55px 15px 5px; line-height: 100%; position: relative; overflow: hidden;}
+.g_round { float: left; margin-right: 70px; }
+.g_round2 { float: left; margin-right: 50px; }
+.g_game { position: relative; margin-bottom: 15px; }
+.g_gracket h3 { margin: 0; padding: 10px 8px 8px; font-size: 14px; font-weight: normal; color: #fff; }
+.g_gracket2 h3 { margin: 0; padding: 10px 8px 8px; font-size: 13px; font-weight: normal; color: #fff; }
+.g_team { background: #3597AE; }
+.g_team:last-child {  background: #FCB821; }
+.g_round:last-child { margin-right: 20px; }
+.g_winner { background: #444; }
+.g_3rd_place { background: #888; }
+.g_winner .g_team { background: none; }
+.g_current { cursor: pointer; background: #A0B43C!important; }
+.g_round_label { top: 20px; font-weight: bold; color: #000; text-align: center; font-size: 14px; }
+
+.preeliminar {float: left; width: 680px; height: auto; }
+.campo {float: left; margin: 0 5px; }
+.campo > ul {list-style: none; text-align: center; padding: 5px; border: solid 1px; }

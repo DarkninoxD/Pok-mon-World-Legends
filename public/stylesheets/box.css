@@ -1,0 +1,307 @@
+#containmentHuiss {
+    width: 200px
+}
+#containmentSortable, #containmentHuiss {
+    height: 430px;
+    float: left;
+    text-align: center;
+}
+#containmentSortable, #hand, #pokemon_box {
+    width: 500px;
+}
+#ul_hand > li, .slot, .slot > li {
+    width: 50px;
+    height: 50px;
+}
+#ul_hand, #pokemon_equip_slot, #pokemon_sell_slot, #pokemon_release_slot {
+    /*border: 1px solid #eee;*/
+    border-radius: 20px;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0 0 0;
+    /*margin-right: 10px;*/
+}
+#ul_hand {
+    background-image: url('../images/box/hand3.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 345px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 0;
+}
+#pokemon_equip_slot {
+    background-image: url('../images/box/equip2.png');
+    background-position: center;
+}
+#pokemon_sell_slot {
+    background-image: url('../images/box/trade2.png');
+    background-position: center;
+}
+#pokemon_release_slot {
+    background-image: url('../images/box/release2.png');
+    background-position: center;
+}
+
+#ul_hand > li {
+    margin: 0 0 5px 5px;
+    font-size: 12px;
+    float: left;
+}
+#ul_hand > li:nth-child(7) {
+    display: none;
+}
+#ul_hand > .ui-state-highlight, .slot > .ui-state-highlight, #pokemon_equip_slot > .ui-state-highlight, #pokemon_sell_slot > .ui-state-highlight, #pokemon_release_slot > .ui-state-highlight {
+    border-style: dashed;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    left: 4px;
+}
+#hand {
+    margin-bottom: 10px;
+}
+#pokemon_box {
+    float: left;
+    /*border: 1px solid #eee;*/
+    margin-top: 5px;
+    /*background-image: url('../images/box-bg.png');*/
+    background-image: url('../images/box/Simple.png');
+    background-size: 530px 280px;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    background-position: -7px -7px;
+    border: 10px solid transparent;
+    border-image: url(../images/box/border2.png) 10 round;
+}
+.slot {
+    float: left;
+}
+.slot > li {
+    list-style: none;
+}
+.element {
+    border: none;
+    background: transparent;
+    text-align: center;
+}
+.element a {
+    float: none;
+}
+
+.options {
+    background-color: transparent;
+    border-radius: 10px;
+    width: 50px;
+    height: 16px;
+    /*padding-left: 8px;*/
+    position: relative;
+    bottom: 2px;
+}
+.options a {
+    float: left;
+}
+.ui-widget {
+    font-size: 12px;
+}
+.slot-options {
+    display: none;
+    font-size: 10px;
+}
+.slot-options > :first-child {
+    line-height: 0;
+    padding-bottom: 8px;
+}
+.ui-menu {
+    width: 65px;
+    height: 90px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    z-index: 1;
+}
+
+#containmentSortable .text_select {
+    text-align-last: center;
+    text-align: center;
+    position: relative;
+    bottom: 8px;
+    padding: 0;
+    padding-left: 7px;
+    font-family: monospace;
+    font-size: 14px;
+    width: 200px;
+    border: none;
+    background: none;
+    background-image: url('../images/box/Simple_top.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    text-shadow: -0.5px 0 1px #000, 0.5px 0 1px #000, 0 0.5px 1px #000, 0 -0.5px 1px #000;
+}
+#containmentSortable .text_select option {
+    color: black;
+}
+#pokemon_equip_slot, #pokemon_sell_slot, #pokemon_release_slot {
+    width: 50px;
+}
+
+#containmentSortable .b-button {
+    float: right;
+}
+#containmentSortable .b-button span {
+    position: relative;
+    bottom: 3px;
+}
+
+#ul_hand .options > .ui-icon, #ul_hand .box-menu > .ui-icon {
+    background-image: url(../images/box/jquery_theme/ui-icons_000000_256x240.png);
+}
+#pokemon_box .options > .ui-icon, #pokemon_box .box-menu > .ui-icon {
+    background-image: url(../images/box/jquery_theme/ui-icons_000000_256x240.png);
+}
+
+#pokemon_box.simple2 {
+    background-image: url('../images/box/Simple2.png');
+}
+#pokemon_box.forest {
+    background-image: url('../images/box/Forest.png');
+}
+#pokemon_box.forest2 {
+    background-image: url('../images/box/Forest2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.city {
+    background-image: url('../images/box/City.png');
+}
+#pokemon_box.city2 {
+    background-image: url('../images/box/City2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.desert {
+    background-image: url('../images/box/Desert.png');
+}
+#pokemon_box.desert2 {
+    background-image: url('../images/box/Desert2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.savanna {
+    background-image: url('../images/box/Savanna.png');
+}
+#pokemon_box.savanna2 {
+    background-image: url('../images/box/Savanna2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.crag {
+    background-image: url('../images/box/Crag.png');
+}
+#pokemon_box.crag2 {
+    background-image: url('../images/box/Crag2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.volcano {
+    background-image: url('../images/box/Volcano.png');
+}
+#pokemon_box.volcano2 {
+    background-image: url('../images/box/Volcano2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.snow {
+    background-image: url('../images/box/Snow.png');
+}
+#pokemon_box.snow2 {
+    background-image: url('../images/box/Snow2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.cave {
+    background-image: url('../images/box/Cave.png');
+}
+#pokemon_box.cave2 {
+    background-image: url('../images/box/Cave2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.beach {
+    background-image: url('../images/box/Beach.png');
+}
+#pokemon_box.beach2 {
+    background-image: url('../images/box/Beach2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.seafloor {
+    background-image: url('../images/box/Seafloor.png');
+}
+#pokemon_box.seafloor2 {
+    background-image: url('../images/box/Seafloor2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.river {
+    background-image: url('../images/box/River.png');
+}
+#pokemon_box.river2 {
+    background-image: url('../images/box/River2.png');
+    background-repeat: repeat;
+    background-size: auto;
+}
+#pokemon_box.sky {
+    background-image: url('../images/box/Sky.png');
+}
+
+@supports (-ms-ime-align:auto) {
+    .options {
+        bottom: 6px;
+    }
+    #containmentSortable .text_select option {
+        text-shadow: none;
+    }
+}
+.disabled {
+        pointer-events: none;
+        cursor: default;
+        opacity: 0.6;
+    }
+    
+.b-white {
+    color: #111;
+    border: 1px solid #b7b7b7;
+    background: #ededed;
+    background: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#dcdcdc));
+    background: -moz-linear-gradient(top,#fff,#dcdcdc);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.b-small {
+    font-size: 11px;
+    padding: .2em 1em .275em;
+}
+.b-button {
+    display: inline-block;
+    zoom: 1;
+    vertical-align: baseline;
+    margin: 0 2px;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    font: 14px/100% Arial,Helvetica,sans-serif;
+    padding: .5em 2em .55em;
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-border-radius: .5em;
+    -moz-border-radius: .5em;
+    border-radius: .5em;
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+.b-button, .b-button:hover {
+    text-decoration: none;
+} 

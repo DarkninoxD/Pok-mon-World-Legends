@@ -1,0 +1,20 @@
+-> ADD NO SQL
+<> events_info
+<> gebruikers [1-7_drop]
+<> events_drop_1_2019 [id, name, chance, world, quantidade]
+
+-> ADD EM resources/events/
+<> Events.php
+
+-> CRIAR EM app/classes/
+<> /events/
+
+-> COLOCAR O ICONE DE EVENTO, BALÃO, TIME, LINE-23 EM public/images/layout/event/
+
+-> CRIAR O CSS DO BALÃO
+
+-> wild_finish.php
+
+-> index.php (add o ballon)
+
+-> config.php (add o import do evento)

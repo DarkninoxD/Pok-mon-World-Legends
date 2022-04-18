@@ -1,0 +1,6 @@
+Order allow,deny
+Deny from all
+<FilesMatch "\.(gif|png|jp?g)$">
+	Order allow,deny
+	Allow from all
+</FilesMatch>
